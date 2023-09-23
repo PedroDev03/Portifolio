@@ -1,0 +1,182 @@
+<html>
+ <head>
+     
+    <title> cadastro html</title>
+    <div> caso já tenha login  <a href="file:///C:/Users/Visitante/OneDrive/Nova%20pasta/.vscode/LOGIN.html">Fazer login</a >.</div>
+    <link rel="icon" type="image/png" href="">
+ <link rel="stylesheet" href="styles.css">
+
+ <ul>
+    <li><a href="file:///C:/Users/pc/Desktop/Projetos/HOME.html">Home</a></li>
+    <li><a href>Projetos</a>
+        <ul> 
+          <li><a href="file:///C:/Users/pc/Desktop/Projetos/cadastro%20HTML%20(2).html">Cadastro</a></li>
+          <li><a href="file:///C:/Users/pc/Desktop/Projetos/login%20html.html">Login</a></li>
+        </ul>
+    </li>
+    <li><a href="contato">Contato</a></li>
+  </ul>
+
+
+ <body>     
+     <form>
+<p><label for="name">Cadastro de usuário</label></p><br><br>
+<label for="name">Nome:</label>
+<input type="text", id="campo" size="30"  placeholder="Nome" required><br><br>
+<label for="email">E-mail:</label>
+<input type="email", id="campo" size="30" placeholder="E-mail" required><br><br>
+<label for="senha">Digite sua senha:</label>
+<input type="passowrd", id="campo" size="25" placeholder="Senha" maxlength="15" required> <br><br>
+<label for="birthdate">Data de nascimento:</label>
+<input type="date" id="campo" required><br><br>
+<label for="telefone">Digite seu CPF:</label>
+<input type="number" , id="campo" size="25" placeholder="CPF" maxlength="9" required> <br><br>
+<input type="submit" value="Enviar" class="botao"/>
+
+</form> 
+
+
+</html>
+
+<style> 
+
+     
+    form {
+        color:white;
+        font-family: Arial;
+        background-color:darkslateblue;
+         border-radius: 41px;
+         border-style:hidden;
+         width: 350px; 
+         margin-left: auto;
+         margin-right: auto; 
+         padding: 35px;
+         align-items: center;
+         font-size: large;
+         margin-top: 60px;
+         text-align: center;
+         height: 570px;
+         padding-top: 11px;
+         background-image: url(img.jpeg);
+
+
+     }
+     body{
+    background-color:aliceblue;
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    }
+    
+    .botao{
+        font-family: Arial Black;
+        color:aliceblue;
+        background-color:rebeccapurple;
+        width:99%;
+        border-radius: 55px;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 25px;
+        border-radius:4px;
+        -webkit-border-radius:30px;
+        transition: 0.3s;
+        margin-top: -1%;
+        margin-left: 4px;
+        transition: 1s;
+        box-shadow: inset -5px 0 7px 2px indigo;
+   }
+   .botao:hover,
+.botao:focus{
+    background-color: indigo;
+}
+    p{
+        padding: -10px;
+        font-size:28px ;
+        height: 0px;
+        font-family: Georgia;
+        margin-bottom: 15px;
+        margin-top: 20px ;
+        
+
+    }
+    #campo{
+        width: 320px;
+        height: 45px;
+        border-radius: 7px;
+        margin-top: 1%;
+    }
+   div{           /*caso tenha login*/
+       font-family: arial;
+       font-size: x-large;
+       color:aliceblue;
+       margin-left: 940px;
+    }
+  
+   a{
+        color: aliceblue;
+    }
+    ul{            /*barra superior*/
+    list-style-type: none;
+    margin: -3%;
+    padding: 3px;
+    overflow: hidden;
+    background-color:rebeccapurple;
+    font-size: 27px;
+}
+
+li {
+    float: left;
+    font-family: Arial;
+    text-align: left;
+    margin-left: 1px;
+    transition: 1s;
+    padding: 17px;
+    font-size: 20px;
+    height: 40px;
+}
+li:hover,
+li:focus{
+    background-color: indigo;
+}
+
+li a {
+    display: block;
+    color:aliceblue ;
+    text-align: left;
+    padding: 15px 16px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+ul ul {
+    display:none;
+    position: absolute;
+    margin-bottom: 2px;
+    border-radius: 3px;
+    left: 138px;
+    height: 150px;
+    top: 61px;
+    padding-right: 17px;
+    width: 132px;
+  
+}
+
+ul li:hover ul {
+    margin-top: 10px;
+    margin-left: -39px;
+    display:block;
+    margin-bottom: 1px;
+    cursor: pointer;
+    
+}
+
+ul ul li a{  /*itens dentro do sub menu*/
+    display: block;
+    margin-left: -45px;
+    margin-top: -32px;
+    padding:55px;
+    
+}
+
+
+</style>

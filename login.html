@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login html</title>
+    </head>
+
+ <link rel="stylesheet" href="styles.css">
+
+ <ul>
+    <li><a href="file:///C:/Users/pc/Desktop/Projetos/HOME.html">Home</a></li>
+    <li><a href="file:///C:/Users/Visitante/OneDrive/Nova%20pasta/.vscode/LOGIN.html#news">Projetos</a>
+        <ul> 
+          <li><a href="file:///C:/Users/pc/Desktop/Projetos/cadastro%20HTML%20(2).html">Cadastro</a></li>
+          <li><a href="file:///C:/Users/pc/Desktop/Projetos/login%20html.html">Login</a></li>
+        </ul>
+    </li>
+    <li><a href="contato">Contato</a></li>
+  </ul>
+ <body>     
+     <form>
+<p><label for="name">Login</label></p><br><br>
+<label for="email">E-mail:</label><br><br>
+<input type="email", name="email" id="campo" size="30" placeholder="E-mail" required><br><br>
+<label for="senha">Digite sua senha:</label><br><br>
+<input type="passowrd", id="campo" size="25" placeholder="Senha" required> <br><br>
+<label for="telefone">Digite seu CPF:</label><br><br>
+<input type="number" id="campo" placeholder="CPF" required><br><br>
+<input type="submit" value="Enviar" class="botao"/>
+<div> <a href="file:///C:/Users/pc/Desktop/Projetos/cadastro%20HTML%20(2).html">Cadastrar</a></div>                        
+
+</form> 
+
+
+</html>
+
+<style>
+   
+    form {
+        color:white;
+        font-family: arial;
+        background-color:darkslateblue;
+         border-radius: 41px;
+         border-style:hidden;
+         width: 330px; 
+         margin-left: auto;
+         margin-right: auto; 
+         padding: 34px;
+         align-items: center;
+         font-size: 22px;
+         text-align: center;
+         height: 535px;
+         padding-top: 4px;
+         margin-top: 38px;
+         background-image: url(img.jpeg);
+
+       
+     }
+     body{
+    background-color:aliceblue;
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    font-family: arial;
+    
+    }
+  
+    .botao{
+        font-family: Arial black;
+        color:aliceblue;
+        background-color:rebeccapurple;
+        width:100%;
+        border-radius: 55px;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 25px;
+        border-radius:4px;
+        -webkit-border-radius:30px;
+        margin-top: 1px;
+        transition: 1s;
+        box-shadow: inset -6px 0 9px 2px indigo;
+
+   }
+   .botao:hover,
+.botao:focus{
+    background-color: indigo;
+}
+    p{
+        font-family:Georgia;
+        padding: -2px;
+        font-size:34px ;
+        height: 2mm;
+        margin-bottom: 6px;
+        margin-top: 22px;
+        
+
+    }
+    #campo{
+        width: 335px;
+        height: 47px;
+        border-radius: 7px;
+        margin-top: -5%;
+    }
+    div{          /*botao cadastro*/  
+        font-family: Arial Black;
+        width:96%;
+        border-radius: 55px;
+        cursor:pointer;
+        padding: 9px;
+        font-size: 22px;
+        border-radius:4px;
+        -webkit-border-radius: 150px;
+        margin-top: 10px;
+        transition: 1s;
+    }
+ div:hover{
+    background-color: indigo;
+
+ }
+
+    a{
+        color: aliceblue;
+    }
+    ul{            /*barra superior*/
+    list-style-type: none;
+    margin: -1%;
+    padding: 2px;
+    overflow: hidden;
+    background-color:rebeccapurple;
+    font-size:25px;
+
+}
+li {
+    float: left;
+    font-family: arial;
+    padding: 9px;
+    font-size:18px;
+    margin-left: -14px;
+    height: 48px;
+    text-align: left;
+    transition: 1s;
+}
+li:hover,
+li:focus{
+    background-color: indigo;
+}
+li a {
+    display: block;
+    color:aliceblue ;
+    text-align: left;
+    padding: 14px 19px;
+    text-decoration: none;
+    margin-right:27.5px;
+    margin-top: 5px;
+}
+
+ul ul {
+    display:none;
+    position: absolute;
+    margin-bottom: 2px;
+    border-radius: 2px;
+    width: 146px;
+
+}
+
+ul li:hover ul {
+    margin-top: -2px;
+    margin-left: -9px;
+    display:block;
+    margin-bottom: 7px;
+
+}
+
+ul ul li a{  /*itens dentro do sub menu*/
+    display: block;
+    margin-left: -20px;
+    padding: 50px;
+    margin-top: -30px;
+    
+  
+}
+</style>
