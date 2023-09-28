@@ -1,6 +1,6 @@
 body{
     background-size:cover;
-    background-image:url('purpi.jpg');
+    background-image:url('purpi.png');
     background-repeat:no-repeat;
 }
 
@@ -93,12 +93,12 @@ div{
     height:150px;
     box-shadow: inset -7px 0 9px 5px rgb(59, 50, 119);
     width:150px;
-    transition:1.3s;
    
 }
 
 section{
     transition:1.3s;
+    display:none;
 
 }
 
@@ -111,6 +111,7 @@ div:hover section{
     text-align:center;
     opacity:100%;
     box-shadow: inset -7px 0 9px 5px rgb(59, 50, 119);
+    display:block;
     
 
 }
