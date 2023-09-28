@@ -105,7 +105,7 @@ section{
     color:transparent;
 }
 
-div section:hover,section:focus{
+div:hover+section{
     background-color: rebeccapurple;   /*animaco texto*/
     margin-right: 150px;
     border-radius: 45px;
