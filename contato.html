@@ -4,7 +4,7 @@
     <title> Contato </title>
     <link rel="icon" href="icon.png">
   
- <link rel="stylesheet" href="https://pedrodev03.github.io/Portifolio/css contato.css">
+ <link rel="stylesheet" href="styles.css">
 
  <ul>
     <li><a href="index.html">Home</a></li>
@@ -25,4 +25,71 @@
       </div>
   </body>
 </html>
+<style>
 
+ul{            /*barra superior*/
+  list-style-type: none;
+  margin: -1%;
+  padding: 2px;
+  overflow: hidden;
+  background-color:rebeccapurple;
+  font-size:25px;
+
+}
+li {
+  float: left;
+  font-family: arial;
+  padding: 9px;
+  font-size:18px;
+  margin-left: -14px;
+  height: 48px;
+  text-align: left;
+  transition: 1s;
+}
+li:hover,
+li:focus{
+  background-color: indigo;
+}
+li a {
+  display: block;
+  color:aliceblue ;
+  text-align: left;
+  padding: 14px 19px;
+  text-decoration: none;
+  margin-right:27.5px;
+  margin-top: 5px;
+}
+
+ul ul {
+  display:none;
+  position: absolute;
+  margin-bottom: 2px;
+  border-radius: 2px;
+  width: 146px;
+
+}
+
+ul li:hover ul {
+  margin-top: -2px;
+  margin-left: -9px;
+  display:block;
+  margin-bottom: 7px;
+
+}
+
+ul ul li a{  /*itens dentro do sub menu*/
+  display: block;
+  margin-left: -20px;
+  padding: 50px;
+  margin-top: -30px;
+  
+
+}
+  body{
+  background-color:aliceblue;
+  }
+ div{
+  background-color:rebbecapurple;
+ }
+
+</style>
