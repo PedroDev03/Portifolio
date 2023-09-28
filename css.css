@@ -100,7 +100,7 @@ div{
 
 section{
     transition:1.3s;
-    text-overflow:hidden;
+    visibility:hidden;
 }
 
 div section:hover,section:focus{
@@ -112,6 +112,8 @@ div section:hover,section:focus{
     text-align:center;
     opacity:100%;
     box-shadow: inset -7px 0 9px 5px rgb(59, 50, 119);
+    visibility:visible;
+    
 
 }
 .p1{
