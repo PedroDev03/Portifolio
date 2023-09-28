@@ -104,14 +104,14 @@ section{
 
 }
 
-div:hover,div:focus{
+div:hover,section:hover,div:focus{
     background-color: rebeccapurple;   /*animaco texto*/
     margin-right: 150px;
     border-radius: 45px;
     width: 1000px;
     height:350px;
     text-align:center;
-    opacity:100%;
+    opacity:0%;
     box-shadow: inset -7px 0 9px 5px rgb(59, 50, 119);
     display:block;
 
