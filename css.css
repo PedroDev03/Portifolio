@@ -1,8 +1,7 @@
 body{
-    background-image:url(Portifolio/purpi.png);
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
+    background-image:url('purpi.png');
+
+    
 }
 
 ul{            /*barra superior*/
