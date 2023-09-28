@@ -101,6 +101,8 @@ div{
 section{
     transition:1.3s;
     visibility:hidden;
+    opacity:0;
+    color:transparent;
 }
 
 div section:hover,section:focus{
