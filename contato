@@ -1,3 +1,4 @@
+<html>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -25,6 +26,8 @@
           telefone: (62) 994984386
       </div>
   </body>
+</html>
+
   <style>
   body{
   background-color:aliceblue;
