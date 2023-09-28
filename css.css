@@ -1,7 +1,8 @@
 body{
     background-size:cover;
     background-image:url('purpi.jpg');
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 }
 
 
