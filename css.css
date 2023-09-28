@@ -1,6 +1,6 @@
 body{
     background-size:cover;
-    background-image:url('purpi.png');
+    background-image:url('purpi.jpg');
     background-repeat:no-repeat;
 }
 
@@ -99,9 +99,7 @@ div{
 
 section{
     transition:1.3s;
-    visibility:hidden;
-    opacity:0;
-    color:transparent;
+
 }
 
 div:hover section{
@@ -113,7 +111,6 @@ div:hover section{
     text-align:center;
     opacity:100%;
     box-shadow: inset -7px 0 9px 5px rgb(59, 50, 119);
-    visibility:visible;
     
 
 }
