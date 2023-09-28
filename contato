@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Contato </title>
+
+ 
+ <link rel="stylesheet" href="styles.css">
+ <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="login.html">Projetos</a>
+        <ul> 
+          <li><a href="cadastro.html">Cadastro</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+    </li>
+    <li><a href="contato">Contato</a></li>
+  </ul>
+  <p>Contato</p>
+  <body>
+      <div>
+          email:pedroaugustor03@gmail.com
+          telefone: (62) 994984386
+      </div>
+  </body>
+  <style>
+  body{
+  background-color:aliceblue;
+
+
+  </style>
+
+  
