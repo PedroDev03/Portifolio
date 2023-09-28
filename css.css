@@ -1,6 +1,8 @@
 body{
     background-size:auto;
     background-image:url('purpi.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 ul{            /*barra superior*/
