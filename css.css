@@ -103,7 +103,7 @@ section{
 
 }
 
-div:hover section{
+div:hover,div:focus{
     background-color: rebeccapurple;   /*animaco texto*/
     margin-right: 150px;
     border-radius: 45px;
