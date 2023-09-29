@@ -100,7 +100,8 @@ div{
 section{
     display:none;
     opacity: 0; /* Inicialmente, o elemento .target é invisível */
-    transition: opacity 1.3s ease; /* Adiciona uma transição de fade de 0.3 segundos */
+    transition: opacity 1.3s ease;
+    transition-delay:2s;/* Adiciona uma transição de fade de 0.3 segundos */
 }
 
 
