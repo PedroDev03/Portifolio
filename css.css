@@ -99,7 +99,7 @@ div{
 
 .trigger section {
     opacity: 0; /* Inicialmente, o elemento .target é invisível */
-    transition: opacity 1.3s ease;
+    transition: opacity 0.3s ease;
 }
 
 
