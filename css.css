@@ -87,7 +87,7 @@ p{
  
 div{
     background-color:slateblue;
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 100px;
     color: aliceblue;
     border-radius: 55px; 
@@ -102,17 +102,17 @@ div{
     opacity: 0; /* Inicialmente, o elemento .target é invisível */
     visibility: hidden;
     transition: opacity 1.3s ease,visibility 0.1s ease;
-    transition: opacity 0.6 ease out;
+
 }
 
 
 .trigger:hover section{
     background-color: rebeccapurple;   /*animaco texto*/
     margin-left: 150px;
-    margin-top:15px;
+    margin-top:8px;
     border-radius: 45px;
     width: 1000px;
-    height:350px;
+    height:320px;
     text-align:center;
     box-shadow: inset -7px 0 9px 5px rgb(59, 50, 119);
     opacity:1;
