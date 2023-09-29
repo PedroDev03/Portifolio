@@ -108,11 +108,11 @@ div{
 
 .trigger:hover section{
     background-color: rebeccapurple;   /*animaco texto*/
-    margin-left: 50px;
-    margin-top:8px;
+    margin-left: 75px;
+    margin-top:1px;
     border-radius: 45px;
-    width: 750px;
-    height:220px;
+    width: 780px;
+    height:250px;
     text-align:center;
     box-shadow: inset -7px 0 9px 5px rgb(59, 50, 119);
     opacity:1;
