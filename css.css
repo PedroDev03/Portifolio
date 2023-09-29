@@ -107,7 +107,8 @@ div{
 
 .trigger:hover section{
     background-color: rebeccapurple;   /*animaco texto*/
-    margin-right: 150px;
+    margin-left: 150px;
+    margin-top:60px;
     border-radius: 45px;
     width: 1000px;
     height:350px;
