@@ -95,15 +95,13 @@ div{
     height:150px;
     box-shadow: inset -7px 0 9px 5px rgb(59, 50, 119);
     width:150px;
-    transition:1.3s;
-   
 }
 
 section{
-    transition:1.3s;
     display:none;
-    opacity:0%;
-
+    opacity: 0; /* Inicialmente, o elemento .target é invisível */
+    transition: opacity 0.3s ease; /* Adiciona uma transição de fade de 0.3 segundos */
+}
 }
 
 div:hover section,section:focus{
@@ -116,6 +114,8 @@ div:hover section,section:focus{
     opacity:100%;
     box-shadow: inset -7px 0 9px 5px rgb(59, 50, 119);
     display:block;
+    opacity:1;
+    
 
 }
 .p1{
