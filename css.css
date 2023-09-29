@@ -87,7 +87,7 @@ p{
  
 div{
     background-color:slateblue;
-    font-size: 24px;
+    font-size: 15px;
     margin-left: 100px;
     color: aliceblue;
     border-radius: 55px; 
@@ -102,6 +102,7 @@ div{
     opacity: 0; /* Inicialmente, o elemento .target é invisível */
     visibility: hidden;
     transition: opacity 1.3s ease,visibility 0.1s ease;
+    transition: opacity 0.6 ease out;
 }
 
 
