@@ -103,7 +103,7 @@ div{
 }
 
 
-div:hover section{
+.trigger:hover section{
     background-color: rebeccapurple;   /*animaco texto*/
     margin-right: 150px;
     border-radius: 45px;
