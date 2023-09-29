@@ -99,7 +99,8 @@ div{
 
 .trigger section {
     opacity: 0; /* Inicialmente, o elemento .target é invisível */
-    transition: opacity 0.3s ease;
+    visibility: hidden;
+    transition: opacity 0.3s ease,visibility 0.3s ease;
 }
 
 
@@ -112,6 +113,7 @@ div{
     text-align:center;
     box-shadow: inset -7px 0 9px 5px rgb(59, 50, 119);
     opacity:1;
+    visibility: visible;
    
 
 }
