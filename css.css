@@ -116,7 +116,7 @@ div:hover section{
     box-shadow: inset -7px 0 9px 5px rgb(59, 50, 119);
     display:block;
     opacity:1;
-    
+    transition-delay:2s;
 
 }
 .p1{
