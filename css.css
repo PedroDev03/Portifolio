@@ -100,7 +100,7 @@ div{
 .trigger section {
     opacity: 0; /* Inicialmente, o elemento .target é invisível */
     visibility: hidden;
-    transition: opacity 1.3s ease;
+    transition: opacity 1.3s ease,visibility 0.8s ease;
 }
 
 
