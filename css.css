@@ -92,7 +92,7 @@ div{
     color: aliceblue;
     border-radius: 55px; 
     margin-right:220px;
-    height:125px;
+    height:120px;
     box-shadow: inset 4px 0 9px 5px rgb(59, 50, 119);
     width:150px;
     text-align:center;
@@ -108,8 +108,8 @@ div{
 
 .trigger:hover section{
     background-color:slateblue;   /*animaco texto*/
-    margin-left:148px;
-    margin-right:209px;
+    margin-left:149px;
+    margin-right:210px;
     margin-top:-73px;
     border-radius: 45px;
     width: 800px;
