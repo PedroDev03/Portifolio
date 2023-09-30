@@ -108,9 +108,9 @@ div{
 
 .trigger:hover section{
     background-color:slateblue;   /*animaco texto*/
-    margin-left: 150px;
+    margin-left: 160px;
     margin-right:220px;
-    margin-top:-55px;
+    margin-top:-75px;
     border-radius: 45px;
     width: 800px;
     height:250px;
