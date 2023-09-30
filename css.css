@@ -107,17 +107,17 @@ div{
 
 
 .trigger:hover section{
-    background-color: slateblue;   /*animaco texto*/
-    margin-left: 140px;
+    background-color:slateblue;   /*animaco texto*/
+    margin-left: 155px;
     margin-right:220px;
-    margin-top:-2px;
+    margin-top:-45px;
     border-radius: 45px;
     width: 800px;
     height:250px;
     text-align:center;
     box-shadow: inset -7px 0 9px 5px rgb(59, 50, 119);
     opacity:1;
-    visibility: visible;
+    visibility:visible;
    
 
 }
